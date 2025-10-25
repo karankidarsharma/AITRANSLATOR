@@ -9,7 +9,10 @@
     "contextMenus",
     "activeTab",
     "scripting",
-    "storage"
+    "storage",
+    "sidePanel",
+    "scripting",
+    "tabs"
   ],
   "host_permissions": [
     "<all_urls>"
@@ -19,5 +22,6 @@
   },
   "action": {
     "default_title": "Right Click Action"
-  }
+  },
+  "side_panel": {"default_path":"sidepanel.html"}
 }
