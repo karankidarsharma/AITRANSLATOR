@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "SmartAI: Smart ai instant translator",
-  "short_name": "SmartAI",
-  "description": "Instantly turn any text into any other language. AI writing assistant",
+  "name": "LangAi: Smart ai instant translator",
+  "short_name": "LangAi",
+  "description": "Instantly Translate any text to any language.",
   "version": "1.0.0",
 
   "permissions": [
@@ -14,6 +14,7 @@
     "scripting",
     "tabs"
   ],
+ 
   "host_permissions": [
     "<all_urls>"
   ],
@@ -21,7 +22,8 @@
     "service_worker": "background.js"
   },
   "action": {
-    "default_title": "Right Click Action"
+    "default_title": "Right Click Action",
+    "default_popup":"popup.html"
   },
   "side_panel": {"default_path":"sidepanel.html"}
 }
