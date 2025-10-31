@@ -23,7 +23,17 @@
   },
   "action": {
     "default_title": "Right Click Action",
-    "default_popup":"popup.html"
+    "default_popup":"popup.html",
+      "default_icon": {
+      "16": "assets/images/lai16.png",
+      "48": "assets/images/lai48.png",
+      "128": "assets/images/lai128.png"
+    }
   },
+   "icons": {
+      "16": "assets/images/lai16.png",
+      "48": "assets/images/lai48.png",
+      "128": "assets/images/lai128.png"
+    },
   "side_panel": {"default_path":"sidepanel.html"}
 }
