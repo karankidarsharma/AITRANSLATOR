@@ -22,8 +22,7 @@
     "service_worker": "background.js"
   },
   "action": {
-    "default_title": "Right Click Action",
-    "default_popup":"popup.html",
+    "default_title": "LangAi",
       "default_icon": {
       "16": "assets/images/lai16.png",
       "48": "assets/images/lai48.png",
